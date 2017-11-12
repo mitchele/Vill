@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#6aa18d8d"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+       <EditText
+           android:layout_width="150dp"
+           android:layout_height="50dp"
+           android:layout_gravity="center"
+           android:hint="@string/country"
+           android:textColor="#ffffff"
+          android:textSize="35sp"
+           android:id="@+id/country" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+       android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical"
+        android:background="#9e8c9c97">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:text="@string/btc"
+            android:id="@+id/btc_usd" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:hint="@string/hint"
+            android:id="@+id/btc" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/usd"
+            android:textSize="25sp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:textColor="#ffffff"
+            android:id="@+id/textViewUsd" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:hint="@string/hint1"
+            android:id="@+id/btc_to_usd" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="convert"
+            android:id="@+id/bbbt" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical"
+        android:background="#e88c9c97">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:text="@string/etc"
+            android:id="@+id/ETH_USD" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:hint="@string/hint"
+            android:id="@+id/eth" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/usd"
+            android:textSize="25sp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:textColor="#ffffff"
+            android:id="@+id/USDETH" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:hint="@string/hint1"
+            android:id="@+id/eth_to_usd" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="convert"
+            android:id="@+id/transition_current_scene" />
+
+
+    </LinearLayout>
+</LinearLayout>
